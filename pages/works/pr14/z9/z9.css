@@ -1,0 +1,23 @@
+@keyframes box{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
+body{
+    color: #fff;
+    font: 600 24px;
+}
+.box{
+    margin: 100px 100px;
+    background: #2db34a;
+    height: 95px;
+    width: 95px;
+}
+.box:hover{
+    animation: box 5s linear infinite;
+    animation-duration: 2.5s;
+    animation-timing-function: ease;
+}

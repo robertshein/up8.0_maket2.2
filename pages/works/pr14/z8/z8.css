@@ -1,0 +1,23 @@
+@keyframes slide{
+    0%{
+        left: 0;
+        top: 10px;
+    }
+    100%{
+        left: 100px;
+        top: 0;
+    }
+}
+.box{
+    background: #2db34a;
+    border: 2px solid black;
+    height: 95px;
+    position: absolute;
+    width: 95px;
+}
+.box:hover{
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: .5s;
+}

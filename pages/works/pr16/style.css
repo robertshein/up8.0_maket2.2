@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+main{
+    margin: 0 auto;
+}
+.img1{
+    background: url(img/icon1.png) center center;
+    height: 70px;
+    width: 68px;
+}
+.img2{
+    background: url(img/icon2.png) center center;
+    height: 80px;
+    width: 58px;
+}
+.img3{
+    background: url(img/icon3.png) center center;
+    height: 71px;
+    width: 68px;
+}
+.title div{
+    display: inline-block;
+}
+header{
+    background: url(img/BG.png) center center;
+    background-size: cover;
+}
+.logo{
+    background: url(img/logo.png);
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+header nav a{
+    color: #fff;
+    text-decoration: none;
+}
+header nav a:hover{
+    color: black;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-logo{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.image{
+    background: url(img/Video.png);
+    width: 634px;
+    height: 354px;
+}
+.menu .button{
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    font-size: 12px;
+    padding: 10px;
+}
+h1{
+    font-size: 55px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 500px;
+    margin-bottom: 0px;
+}
+.info-1 p{
+    color: #78909c;
+    width: 580px;
+    margin-bottom: 40px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+.menu{
+    width: 1600px;
+    margin: 0 auto;
+}
+.but1{
+    background: #061e37;
+    color: #fff;    
+    padding: 20px 40px;
+}
+.but2{
+    margin-left: 30px;
+    background: #fff;
+    padding: 20px 30px;
+    color: black;
+}
+.info-1 .button{
+    text-decoration: none;
+    border-radius: 5px;
+}
+.logo-name{
+    color: #fff;
+}
+.name-2{
+    font-weight: bold;
+}
+.easy{
+    margin: 0 auto;
+    height: 750px;
+    background: #fff;
+    text-align: center;
+    margin-top: 100px;
+}
+.opis{
+    width: 350px;
+    text-align: center;
+    color: #78909c;
+}
+.nazv{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.three{
+    margin-right: 0;
+}
+.easy-info{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+.two{
+    margin: 0 190px;
+}
+.easy .button{
+    color: #fff;
+    padding: 20px;
+    background: #1de9b6;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.title{
+    margin: 0 auto;
+    width: 1600px;
+    margin-bottom: 80px;
+}
+.easy-info p{
+    color: #78909c;
+    margin: 5px 0 10px 0;
+}
+.easy-info h2{
+    font-size: 45px;
+}
+.proj{
+    font-size: 25px;
+}
+.rect{
+    padding: 10px 10px 10px 10px;
+    width: 650px;
+}
+.otziv{
+    background: url(img/BG2.png) center center;
+    background-size: cover;
+}
+.otziv-div{
+    margin: 0 auto;
+    width: 1600px;
+    display: flex;
+}
+.people-img{
+    margin-top: 40px;
+    margin-right: 50px;
+    width: 60px;
+    height: 60px;
+}
+.img4{
+    background: url(img/Ellipse2.png) center center;
+    background-size: cover;
+}
+.img5{
+    background: url(img/Ellipse3.png) center center;
+    background-size: cover;
+}
+.rect{
+    border-radius: 5px;
+    background: white;
+}
+.left-otzziv{
+    margin-top: 100px;
+    width: 800px;
+}
+.left-otzziv h2{
+    color: #fff;
+    width: 400px;
+    font-size: 45px;
+}
+.left-otzziv p{
+    width: 600px;
+}
+.contact{
+    margin: 0 auto;
+    width: 800px;
+}
+.contact h2, .contact p{
+    text-align: center;
+}
+.div{
+    justify-content: center;
+    display: block;
+    gap: 20px;
+}
+.div input{
+    width: 280px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+.message input{
+    border-radius: 5px;
+    margin: 0 50px;
+    margin-top: 20px;
+    width: 665px;
+    height: 150px;
+}
+form{
+    margin-top: 50px;
+}
+.one, .two1{
+    margin: 0 50px;
+    display: flex;
+    gap: 20px;
+}
+.one{
+    margin-bottom: 20px;
+}
+footer nav{
+    margin-left: 400px;
+}
+.contact h2, .contact p{
+    margin-top: 20px;
+}
+.people-1{
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.people-2{
+    display: flex;
+    margin-bottom: 100px;
+}
+.butt1{
+    margin-top: 30px;
+    margin-left: 380px;
+    background: #1de9b6;
+    color: #fff;    
+    padding: 10px 30px;
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 5px;
+}
+.div11{
+    display: inline-block;
+}
+.div11 input{
+    margin-left: 50px;
+}
+footer{
+    background-color: #061e37;
+}
+footer ul{
+    display: flex;
+    gap: 30px;
+}
+
+footer .menu-logo{
+    width: 1600px;
+    margin: 0 auto;
+}
+footer nav{
+    margin-left: 900px;
+}
+.div22 nav{
+    margin: 0 auto;
+    margin-left: 90px;
+}
+.div22{
+    margin-top: 40px;
+}
+footer .menu-logo{
+    padding-top: 30px;
+}
+.people-img{
+    display: flex;
+}
+.otziv-div .button{
+    color: #fff;
+    padding: 20px;
+    background: #061e37;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.otziv-div p{
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 100px;
+}
+.people-ops{
+    margin-top: 10px;
+}
+.names{
+    font-size: 30px;
+}

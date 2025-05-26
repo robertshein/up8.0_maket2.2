@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Shrift;
+    src: url(HelveticaNeue-Light.otf);
+}
+*{
+    font-family: Shrift;
+}
+.wrapper{
+    width: 480px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.header{
+    background: url(img/106.png) center center;
+    background-size: cover;
+    width: 480px;
+    height: 240px;
+}
+.menu-logo{
+    background: url(img/103.png) center center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.poisk{
+    background: url(img/102.png) center center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+.icon{
+    background: url(img/101.png) center center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.menu{
+    width: 420px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.right-menu{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.left-menu{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+h1{
+    color: #fff;
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.znach{
+    display: flex;
+    gap: 50px;
+    background: #fff;
+    width: 400px;
+    margin: 30px auto;
+    text-align: center;
+    justify-content: center;
+}
+.chislo{
+    font-size: 40px;
+    color: #2b2b2b;
+}
+.image-i{
+    margin-top: 20px;
+    background: url(img/105.png) center center;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: 380px;
+}
+.opisanie .block{
+    border: 1px solid rgb(218, 218, 218);
+    padding: 20px;
+}
+.opisanie{
+    background: #f3f3f3;
+}
+.glav{
+    color: #8ad4cb;
+    font-weight: bold;
+    font-size: 12px;
+}
+.znachenie{
+    margin-top: 5px;
+    font-size: 24px;
+    color: #5c5c5c;
+}
+.nazv{
+    color: #b8b8b8;
+    font-size: 12px;
+}

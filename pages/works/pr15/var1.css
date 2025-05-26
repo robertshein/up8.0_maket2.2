@@ -1,0 +1,61 @@
+@font-face {
+    font-family: AlumniSans;
+    src: url(AlumniSans-Regular.ttf);
+}
+.wrapper{
+    display: grid;
+    width: 1295px;
+    height: 631px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+.img{
+    margin-right: 20px;
+}
+.img1{
+    background: url(1.png);
+    grid-row: 1/4;
+    width: 489px;
+    height: 631px;
+    margin-right: 24px;
+}
+.img2{
+    background: url(2.png);
+    height: 255px;
+    width: 376px;
+}
+.img3{
+    background: url(3.png);
+    height: 255px;
+    width: 379px;
+}
+.img4{
+    background: url(4.png);
+    height: 239px;
+    width: 375px;
+    grid-column: 2/3;
+}
+.img5{
+    background: url(5.png);
+    height: 239px;
+    width: 388px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.text{
+    grid-column: 2/4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: AlumniSans;
+    font-size: 24px;
+    height: 77px;
+    width: 779px;
+}
+h1{
+    text-align: center;
+    font-family: AlumniSans;
+    font-weight: bold;
+    margin-bottom: 111px;
+    font-size: 48px;
+}
