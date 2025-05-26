@@ -1,0 +1,152 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.prew {
+    width: 500px;
+    height: 300px;
+}
+
+.new1 {
+    background: url("../img/bbf0f3u-960.jpg");
+    background-size: cover;
+}
+
+.new2 {
+    background: url("../img/0sh3obwpj10c-1.jpg");
+    background-size: cover;
+}
+
+.new3 {
+    background: url("../img/6c291f1d6416fda014f84f704623d302.jpg");
+    background-size: cover;
+}
+
+.pow {
+    width: 1000px;
+    height: 500px;
+}
+
+.navik {
+    background: url("../img/CUAAAgJ0eOA-1920.jpg");
+    background-size: cover;
+}
+
+.sertificat {
+    background: url("../img/cert_society_full.jpg");
+    background-size: cover;
+}
+
+h1{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul{
+    background-color: rgb(208, 208, 208);
+}
+
+li{
+    padding: 10px;
+}
+
+
+.content{
+    display: flex;
+}
+
+main{
+    width: 70%;
+}
+aside{
+    width: 30%;
+}
+
+.content1{
+    display: flex;
+}
+ol{
+    background-color: rgb(208, 208, 208);
+}
+
+.class1{
+    text-align: center;
+}
+.class2{
+    text-indent: 20px;
+}
+.class3{
+    line-height: 50px;
+}
+.class4{
+    display: inline;
+    vertical-align: sub;
+}
+.class5{
+    word-spacing: 20px;
+}
+.class6{
+    letter-spacing: 10px;
+}
+.class7{
+    white-space: pre;
+}
+.class8{
+    tab-size: 150;
+}
+.class9{
+    text-transform: uppercase;
+}
+.class10{
+    direction: rtl;
+}
+#id1{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+#id2{
+    text-decoration: underline;
+}
+#id3:first-letter{
+    font-size: 2em;
+    margin-right: 2px; 
+    color: #EE9966;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px white, 1px 1px 1px #9E9D99;
+}
+#id4{
+    quotes: '«' '»';
+}
+#id5{
+    font-family: 'Times New Roman', Times, serif;
+}
+#id6{
+    font-style: italic;
+}
+#id7{
+    font-variant: small-caps;
+}
+#id8{
+    font-weight: bold;
+}
+#id9{
+    font-size: small;
+}
+#id10{
+    color: #EE9966;
+}
+#id11{
+    font: italic bold 14px/1.5 Times, 'New Century Schoolbook', serif;
+}
