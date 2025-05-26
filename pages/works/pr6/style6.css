@@ -1,0 +1,102 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: white;
+}
+
+main nav a{
+    display: inline-block;
+    padding: 10px;
+}
+
+main nav{
+    background-color: rgb(208, 208, 208);
+    border-radius: 20px;
+}
+
+section{
+    background-color: rgb(208, 208, 208);
+    border-radius: 20px;
+}
+
+h1{
+    margin: 15px;
+}
+h2{
+    margin: 15px;
+}
+h3{
+    margin: 15px;
+}
+p{
+    margin: 15px;
+}
+h4{
+    margin: 15px;
+}
+
+.date{
+    margin: 15px;
+}
+
+a{
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+.img{
+    display: inline-block;
+    gap: 10px  ;
+    height: 100px;
+    width: 100px;
+}
+
+.img2{
+    background: url(f1-dark.png) center center;
+    background-size: cover;
+}
+
+.img3{
+    background: url(newbalance-dark.png) center center;
+    background-size: cover;
+}
+
+.content{
+    display: flex;
+}
+.content main{
+    width: 70%;
+}
+aside{
+    width: 30%;
+}
+
+footer p{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+
+footer h3{
+    text-align: center;
+}
+
+main footer{
+    background-color: rgb(208, 208, 208);
+    border-radius: 20px;
+    bottom: 0;
+}
+ul li{
+    display: inline-block;
+}
+
+ul{
+    background-color: rgb(208, 208, 208);
+}
+
+li{
+    padding: 10px;
+}

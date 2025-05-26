@@ -1,0 +1,91 @@
+
+main header{
+    margin-top: 144px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: RobotikBold;
+    font-size: 24px;
+}
+main main{
+    width: 1355px;
+    margin: 0 auto;
+}
+.img{
+    background: url(images/image\ 6.png);
+    width: 635px;
+    background-size: cover;
+    height: 474.79px;
+}
+.image{
+    width: 71px;
+    height: 71px;
+}
+.img1{
+    background: url(images/Frame\ 11.png);
+}
+.img2{
+    background: url(images/Frame\ 9.png);
+}
+.img3{
+    background: url(images/Frame\ 10.png);
+}
+.img4{
+    background: url(images/Frame\ 7.png);
+}
+.img5{
+    background: url(images/Frame\ 8.png);
+}
+main main{
+    display: flex;
+}
+.blocks{
+    display: inline-block;
+    width: 187px;
+    margin-right: 105px;
+    vertical-align: top;
+    margin-bottom: 5px;
+}
+@font-face {
+    font-family: Robotik;
+    src: url(fonts/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: RobotikBold;
+    src: url(fonts/RobotoCondensed-Bold.ttf);
+}
+p{
+    font-family: Robotik;
+    font-size: 16px;
+}
+.footer p{
+    text-align: center;
+    font-family: RobotikBold;
+    font-size: 16px;
+}
+main footer{
+    text-align: center;
+    height: 100px;
+}
+.button{
+    margin-top: 16px;
+    margin-top: 15px;
+    background-color: #F26689;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+header ul li{
+    display: inline-block;
+}
+
+header ul{
+    background-color: rgb(208, 208, 208);
+}
+
+header li{
+    padding: 10px;
+}
+.content{
+    margin-left: 250px;
+}

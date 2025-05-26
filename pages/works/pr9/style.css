@@ -1,0 +1,128 @@
+.line li{
+    display: inline-block;
+    background: pink;
+    list-style-type: none;
+    padding: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+.line li:hover{
+    background: white;
+    border: 1px solid pink;
+}
+.links a{
+    display: block;
+    text-decoration: none;
+    background: blue;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+.links a:hover{
+    border: 1px solid blue;
+    background: white;
+    color: black;
+}
+.blocks div{
+    display: inline;
+    background: red;
+    padding: 20px;
+    margin: 10px;
+}
+.blocks{
+    margin: 30px;
+}
+.blocks .non{
+    display: none;
+}
+.blocks div:hover{
+    background: white;
+    border: 1px solid red;
+}
+.links-markers a{
+    display: list-item;
+    background: black;
+    color: white;
+    padding: 10px;
+    width: 200px;
+}
+.links-markers{
+    margin-top: 50px;
+}
+.post1 .image{
+    background: url(weather-sun.jpg) center center;
+    border: 2px dotted red;
+    width: 90px;
+    height: 70px;
+    float: left;
+    margin-right: 20px;
+}
+.post2 .image{
+    background: url(weather-sun.jpg) center center;
+    border: 2px dotted red;
+    width: 90px;
+    height: 70px;
+    float: right;
+}
+.post1{
+    background: #930303;
+}
+.post2{
+    background: #930303;
+}
+.pogoda .den{
+    display: inline-block;
+}
+.date{
+    color: white;
+    background: rgb(0, 159, 170);
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 35px;
+}
+.pogoda{
+    margin-top: 50px;
+}
+.image2{
+    width: 114px;
+    height: 94px;
+    margin-left: 30px;
+}
+.img1{
+    background: url(weather-sun.jpg) center center;
+    background-size: cover;
+}
+.img2{
+    background: url(weather-snow.jpg) center center;
+    background-size: cover;
+}
+.img3{
+    background: url(weather-blizzard.jpg) center center;
+    background-size: cover;
+}
+.gradus{
+    text-align: center;
+    font-size: 22px;
+}
+.post1{
+    color: white;
+}
+.post2{
+    color: white;
+}
+header ul li{
+    display: inline-block;
+}
+
+header ul{
+    background-color: rgb(208, 208, 208);
+}
+
+header li{
+    padding: 10px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
